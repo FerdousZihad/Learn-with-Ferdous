@@ -41,3 +41,11 @@ h1 , h2, h3, h4, h5, h6, p,a{
     --bs-btn-disabled-bg: #289BDE;
     --bs-btn-disabled-border-color: #289BDE;
 }
+
+.text-blue{
+    color:#289BDE;
+}
+
+.bg-black{
+    background:#161616;
+}
