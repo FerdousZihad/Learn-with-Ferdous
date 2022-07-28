@@ -45,6 +45,9 @@ h1 , h2, h3, h4, h5, h6, p,a{
 .text-blue{
     color:#289BDE;
 }
+.bg-blue{
+    background-color:#289BDE;
+}
 
 .bg-black{
     background:#161616;
