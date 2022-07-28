@@ -8,6 +8,11 @@ h1 , h2, h3, h4, h5, h6, p,a{
     max-width: 100px;
 }
 
+.carousel-caption{
+    top:35%;
+    bottom: auto;
+}
+
 .btn-outline-blue {
     --bs-btn-color: #289BDE;
     --bs-btn-border-color: #289BDE;
