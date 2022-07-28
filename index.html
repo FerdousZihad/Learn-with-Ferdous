@@ -38,7 +38,8 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon "></span>
+
+                        <i class="fa-solid fa-bars-staggered fa-2x nav-m-icon text-black"></i>
                     </button>
 
 
@@ -48,10 +49,10 @@
                         <div class="navbar-nav  gap-3 ">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                             <a class="nav-link" href="#courses">Courses</a>
-                            <a class="nav-link" href="#Deals">Deals</a>
-                            <a class="nav-link" href="#Success">Success</a>
-                            <a class="nav-link" href="#About">About</a>
-                            <a class="nav-link" href="#Register">Register</a>
+                            <a class="nav-link" href="#accordian">FAQ'S</a>
+                            <a class="nav-link" href="#testimonial">Success</a>
+                            <a class="nav-link" href="#about-us">About</a>
+                            <a class="nav-link" href="#register">Register</a>
                             <a href="#" class="btn btn-outline-blue   rounded-2 fw-semibold d-md-none"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</a>
                         </div>
@@ -150,7 +151,8 @@
             <div class="container">
                 <div class="section-heading text-center mt-5 mb-2 py-5 ">
                     <h1 class=" fw-bold">Our Top Courses</h1>
-                    <p class=" mx-auto ">Explore our best selling courses. You can enroll with 20% discount on these</p>
+                    <p class=" mx-auto text-muted ">Explore our best selling courses. You can enroll with 20% discount
+                        on these</p>
                 </div>
                 <div class="course-card">
                     <!-- cards section for large Devices start  -->
@@ -466,11 +468,12 @@
         </section>
         <!-- register section End -->
 
+        <!-- student section start  -->
         <section id="student" class="section-space">
             <div class="container">
                 <div class="section-heading text-center text-sm-start mt-5 mb-4 pt-5 ">
-                    <h1 class=" fw-bold">Our Successfull Students</h1>
-                    <p class="">Here is some our Successfull Students. you can see them</p>
+                    <h1 class=" fw-bold">Our Successful Students</h1>
+                    <p class="text-muted">Here is some our Successful Students. you can see them</p>
                 </div>
 
                 <div class="student-card">
@@ -533,16 +536,263 @@
 
 
         </section>
+        <!-- student section End  -->
 
+        <!-- testimonial section start  -->
+        <section id="testimonial" class="section-space ">
+
+            <div class="container">
+                <div class="section-heading text-center pt-4 pb-3">
+                    <h1 class="fw-bold">Some Students Feedback</h1>
+                    <p class="text-muted">Read our students testimonials. All are 100% authentic</p>
+
+                </div>
+            </div>
+
+            <div class="container d-none d-lg-block">
+                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <div class="row row-cols-1 row-cols-lg-2 g-4">
+                                <div class="col">
+                                    <div class="t-card-box border py-3 px-4 rounded-2">
+                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                            <img src="./images/comma.png" alt="" class="img-fluid">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="t-card-text">
+                                            <p class="text-muted">I like the short and to the point lessons very much.
+                                                They are simple, easy to understand and very well explained with
+                                                examples. Perhaps this course will not be very advanced and detailed (I
+                                                do not know yet), but it is ideal for beginners.</p>
+                                        </div>
+                                        <div class="t-card-info d-flex ">
+                                            <div class="t-image pe-2">
+                                                <img src="./images/student/student-6.png" alt="" class="img-fluid">
+                                            </div>
+
+                                            <div class="t-information">
+                                                <p class="fw-semibold mb-0">Nusrat Nasir</p>
+                                                <small class="text-muted">UI/Ux Designer</small>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="t-card-box border py-3 px-4 rounded-2">
+                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                            <img src="./images/comma.png" alt="" class="img-fluid">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="t-card-text">
+                                            <p class="text-muted">great introduction but needs update the life cycle
+                                                part now that some methods are considered unsafe on latest releases and
+                                                think that part (color changing) should be implemented in the main
+                                                project for a better understanding</p>
+                                        </div>
+                                        <div class="t-card-info d-flex ">
+                                            <div class="t-image pe-2">
+                                                <img src="./images/student/student-5.png" alt="" class="img-fluid">
+                                            </div>
+
+                                            <div class="t-information">
+                                                <p class="fw-semibold mb-0">Sojib Mondol</p>
+                                                <small class="text-muted">UI/Ux Designer</small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2500">
+                            <div class="row row-cols-1 row-cols-lg-2 g-4">
+                                <div class="col ">
+                                    <div class="t-card-box border py-3 px-4 rounded-2">
+                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                            <img src="./images/comma.png" alt="" class="img-fluid">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="t-card-text">
+                                            <p class="text-muted">great introduction but needs update the life cycle
+                                                part now that some methods are considered unsafe on latest releases and
+                                                think that part (color changing) should be implemented in the main
+                                                project for a better understanding</p>
+                                        </div>
+                                        <div class="t-card-info d-flex ">
+                                            <div class="t-image pe-2">
+                                                <img src="./images/student/student-5.png" alt="" class="img-fluid">
+                                            </div>
+
+                                            <div class="t-information">
+                                                <p class="fw-semibold mb-0">Sojib Mondol</p>
+                                                <small class="text-muted">UI/Ux Designer</small>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="t-card-box border py-3 px-4 rounded-2">
+                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                            <img src="./images/comma.png" alt="" class="img-fluid">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="t-card-text">
+                                            <p class="text-muted">I like the short and to the point lessons very much.
+                                                They are simple, easy to understand and very well explained with
+                                                examples. Perhaps this course will not be very advanced and detailed (I
+                                                do not know yet), but it is ideal for beginners.</p>
+                                        </div>
+                                        <div class="t-card-info d-flex ">
+                                            <div class="t-image pe-2">
+                                                <img src="./images/student/student-6.png" alt="" class="img-fluid">
+                                            </div>
+
+                                            <div class="t-information">
+                                                <p class="fw-semibold mb-0">Nusrat Nasir</p>
+                                                <small class="text-muted">UI/Ux Designer</small>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="prev">
+                        <i class="fa-solid fa-circle-left carousel-control-prev-icon text-muted fa-3x "
+                            aria-hidden="false"></i>
+
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="next">
+                        <i class="fa-solid fa-circle-right carousel-control-prev-icon text-muted fa-3x "
+                            aria-hidden="false"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="container d-lg-none">
+                <div class="row row-cols-1 row-cols-lg-2 g-4">
+                    <div class="col">
+                        <div class="t-card-box border py-3 px-4 rounded-2">
+                            <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                <img src="./images/comma.png" alt="" class="img-fluid">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="t-card-text">
+                                <p class="text-muted">I like the short and to the point lessons very much. They are
+                                    simple, easy to understand and very well explained with examples. Perhaps this
+                                    course will not be very advanced and detailed (I do not know yet), but it is ideal
+                                    for beginners.</p>
+                            </div>
+                            <div class="t-card-info d-flex ">
+                                <div class="t-image pe-2">
+                                    <img src="./images/student/student-6.png" alt="" class="img-fluid">
+                                </div>
+
+                                <div class="t-information">
+                                    <p class="fw-semibold mb-0">Nusrat Nasir</p>
+                                    <small class="text-muted">UI/Ux Designer</small>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="t-card-box border py-3 px-4 rounded-2">
+                            <div class="card-top d-flex justify-content-between align-items-center py-3">
+                                <img src="./images/comma.png" alt="" class="img-fluid">
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="t-card-text">
+                                <p class="text-muted">great introduction but needs update the life cycle part now that
+                                    some methods are considered unsafe on latest releases and think that part (color
+                                    changing) should be implemented in the main project for a better understanding</p>
+                            </div>
+                            <div class="t-card-info d-flex ">
+                                <div class="t-image pe-2">
+                                    <img src="./images/student/student-5.png" alt="" class="img-fluid">
+                                </div>
+
+                                <div class="t-information">
+                                    <p class="fw-semibold mb-0">Sojib Mondol</p>
+                                    <small class="text-muted">UI/Ux Designer</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- testimonial section End  -->
 
         <!-- accordian section start  -->
         <section id="accordian" class="section-space">
             <div class="container">
                 <div class="section-heading text-center mt-5 mb-2 py-5 ">
                     <h1 class=" fw-bold">Frequently Asked Question</h1>
-                    <p class=" mx-auto d-block d-md-none mt-2">Here is some common Questions. I hope you will find the
+                    <p class=" mx-auto d-block d-md-none mt-2 text-muted">Here is some common Questions. I hope you will
+                        find the
                         answer.</p>
-                    <p class=" w-75  mx-auto d-none d-md-block mt-2">Here is some common Questions. I hope you will find
+                    <p class=" w-75  mx-auto d-none d-md-block mt-2 text-muted">Here is some common Questions. I hope
+                        you will find
                         the
                         answer.</p>
                 </div>
@@ -658,249 +908,6 @@
         </section>
         <!-- accordian section End  -->
 
-        <section id="testimonial " class="section-space ">
-
-            <div class="container">
-                <div class="section-heading text-center pt-4 pb-3">
-                    <h1 class="fw-bold">Some Students Feedback</h1>
-                    <p class="text-muted">Read our students testimonials. All are 100% authentic</p>
-
-                </div>
-            </div>
-
-            <div class="container d-none d-lg-block">
-                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2500">
-                            <div class="row row-cols-1 row-cols-lg-2 g-4">
-                                <div class="col">
-                                    <div class="t-card-box border py-3 px-4 rounded-2">
-                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                            <img src="./images/comma.png" alt="" class="img-fluid">
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="t-card-text">
-                                            <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                                our website. We're updating a few pages, and I'm hoping to add something
-                                                from you. It would link back to your site, so it's actually a good thing
-                                                for your SEO.</p>
-                                        </div>
-                                        <div class="t-card-info d-flex ">
-                                            <div class="t-image pe-2">
-                                                <img src="./images/student/student-6.png" alt="" class="img-fluid">
-                                            </div>
-
-                                            <div class="t-information">
-                                                <p class="fw-semibold mb-0">Nusrat Nasir</p>
-                                                <small>UI/Ux Designer</small>
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="t-card-box border py-3 px-4 rounded-2">
-                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                            <img src="./images/comma.png" alt="" class="img-fluid">
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="t-card-text">
-                                            <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                                our website. We're updating a few pages, and I'm hoping to add something
-                                                from you. It would link back to your site, so it's actually a good thing
-                                                for your SEO.</p>
-                                        </div>
-                                        <div class="t-card-info d-flex ">
-                                            <div class="t-image pe-2">
-                                                <img src="./images/student/student-5.png" alt="" class="img-fluid">
-                                            </div>
-
-                                            <div class="t-information">
-                                                <p class="fw-semibold mb-0">Sojib Mondol</p>
-                                                <small class="text-muted">UI/Ux Designer</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="carousel-item " data-bs-interval="2500">
-                            <div class="row row-cols-1 row-cols-lg-2 g-4">
-                                <div class="col ">
-                                    <div class="t-card-box border py-3 px-4 rounded-2">
-                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                            <img src="./images/comma.png" alt="" class="img-fluid">
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="t-card-text">
-                                            <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                                our website. We're updating a few pages, and I'm hoping to add something
-                                                from you. It would link back to your site, so it's actually a good thing
-                                                for your SEO.</p>
-                                        </div>
-                                        <div class="t-card-info d-flex ">
-                                            <div class="t-image pe-2">
-                                                <img src="./images/student/student-5.png" alt="" class="img-fluid">
-                                            </div>
-
-                                            <div class="t-information">
-                                                <p class="fw-semibold mb-0">Sojib Mondol</p>
-                                                <small class="text-muted">UI/Ux Designer</small>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="t-card-box border py-3 px-4 rounded-2">
-                                        <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                            <img src="./images/comma.png" alt="" class="img-fluid">
-                                            <div class="rating">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                        </div>
-                                        <div class="t-card-text">
-                                            <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                                our website. We're updating a few pages, and I'm hoping to add something
-                                                from you. It would link back to your site, so it's actually a good thing
-                                                for your SEO.</p>
-                                        </div>
-                                        <div class="t-card-info d-flex ">
-                                            <div class="t-image pe-2">
-                                                <img src="./images/student/student-6.png" alt="" class="img-fluid">
-                                            </div>
-
-                                            <div class="t-information">
-                                                <p class="fw-semibold mb-0">Nusrat Nasir</p>
-                                                <small>UI/Ux Designer</small>
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
-                        data-bs-slide="prev">
-                        <i class="fa-solid fa-circle-left carousel-control-prev-icon text-muted fa-3x "
-                            aria-hidden="false"></i>
-
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
-                        data-bs-slide="next">
-                        <i class="fa-solid fa-circle-right carousel-control-prev-icon text-muted fa-3x "
-                            aria-hidden="false"></i>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
-
-
-            <div class="container d-lg-none">
-                <div class="row row-cols-1 row-cols-lg-2 g-4">
-                    <div class="col">
-                        <div class="t-card-box border py-3 px-4 rounded-2">
-                            <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                <img src="./images/comma.png" alt="" class="img-fluid">
-                                <div class="rating">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="t-card-text">
-                                <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                    our website. We're updating a few pages, and I'm hoping to add something
-                                    from you. It would link back to your site, so it's actually a good thing
-                                    for your SEO.</p>
-                            </div>
-                            <div class="t-card-info d-flex ">
-                                <div class="t-image pe-2">
-                                    <img src="./images/student/student-6.png" alt="" class="img-fluid">
-                                </div>
-
-                                <div class="t-information">
-                                    <p class="fw-semibold mb-0">Nusrat Nasir</p>
-                                    <small>UI/Ux Designer</small>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="t-card-box border py-3 px-4 rounded-2">
-                            <div class="card-top d-flex justify-content-between align-items-center py-3">
-                                <img src="./images/comma.png" alt="" class="img-fluid">
-                                <div class="rating">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="t-card-text">
-                                <p>I'm writing to ask if you wouldn't mind giving us a short testimonial for
-                                    our website. We're updating a few pages, and I'm hoping to add something
-                                    from you. It would link back to your site, so it's actually a good thing
-                                    for your SEO.</p>
-                            </div>
-                            <div class="t-card-info d-flex ">
-                                <div class="t-image pe-2">
-                                    <img src="./images/student/student-5.png" alt="" class="img-fluid">
-                                </div>
-
-                                <div class="t-information">
-                                    <p class="fw-semibold mb-0">Sojib Mondol</p>
-                                    <small class="text-muted">UI/Ux Designer</small>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
 
         <!-- brands section start -->
         <section id="brand" class="section-space d-none d-lg-block">
@@ -923,13 +930,9 @@
         </section>
         <!-- brands section End -->
 
-
-
-
-
     </main>
 
-
+    <!-- footer section start  -->
     <footer class="mt-4 bg-black">
         <div class="container bg-black text-white text-center mt-5">
             <img src="images/Screenshot_2.png" alt="" class="nav-logo mt-3">
@@ -963,6 +966,7 @@
 
 
     </footer>
+    <!-- footer section End  -->
 
 
 

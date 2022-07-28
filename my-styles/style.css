@@ -7,6 +7,19 @@ h1 , h2, h3, h4, h5, h6, p,a{
 .nav-logo{
     max-width: 100px;
 }
+.navbar-toggler{
+    border:none;
+    outline:none;
+}
+.navbar-toggler:focus{
+    background-color: #28bade;
+    color:#ffffff ;
+    box-shadow: 0 0 10px 0px #289BDE;
+    border-radius: 30px;
+}
+.navbar-toggler:focus i{
+    color:#fff !important;
+}
 
 .carousel-caption{
     top:35%;
@@ -31,20 +44,16 @@ h1 , h2, h3, h4, h5, h6, p,a{
 }
 
 .btn-blue {
-    --bs-btn-color: #000;
-    --bs-btn-bg: #289BDE;
-    --bs-btn-border-color: #289BDE;
-    --bs-btn-hover-color: #000;
-    --bs-btn-hover-bg: #289BDE;
-    --bs-btn-hover-border-color: #289BDE;
-    --bs-btn-focus-shadow-rgb: 11,172,204;
-    --bs-btn-active-color: #000;
-    --bs-btn-active-bg: #289BDE;
-    --bs-btn-active-border-color: #289BDE;
-    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #000;
-    --bs-btn-disabled-bg: #289BDE;
-    --bs-btn-disabled-border-color: #289BDE;
+    background: #289BDE;
+    color:#fff;
+    transition: all .3s;
+}
+.btn-blue:hover{
+    background: #289BDE;
+    border-top: 5px solid rgb(255, 228, 50);
+    border-bottom: 5px solid rgb(255, 228, 50);
+    --bs-btn-border-width: 0px;
+   
 }
 
 .text-blue{
