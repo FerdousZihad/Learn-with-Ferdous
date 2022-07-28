@@ -63,6 +63,16 @@ h1 , h2, h3, h4, h5, h6, p,a{
 .section-space{
     margin:3rem  0 60px 0;
 }
+.section-padding{
+    padding:100px 0 ;
+}
 .bg-light-blue{
     background-color: #F4FAFD;
+}
+
+.t-card-box{
+    background-color: rgba(255, 255, 255, 0.756);
+}
+.rating i{
+    color: gold;
 }
